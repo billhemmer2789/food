@@ -13,4 +13,4 @@ Start-Sleep 15
 Start-Sleep 0.015
 [console]::beep(2000, 80)
 $wshell = New-Object -ComObject Wscript.Shell
-$Output = $wshell.Popup("The task has finished")
+$Output = $wshell.Popup("The first task has finished")
