@@ -1,4 +1,4 @@
-[console]::beep(4000, 3000)
+#[console]::beep(4000, 3000)
 Add-Type -AssemblyName System.Windows.Forms
 $global:balloon = New-Object System.Windows.Forms.NotifyIcon
 $path = (Get-Process -id $pid).Path
