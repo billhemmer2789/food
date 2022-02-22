@@ -10,7 +10,7 @@ $balloon.Visible = $true
 $balloon.ShowBalloonTip(20000)
 Start-Sleep 15
 [console]::beep(2000, 80)
-Start-Sleep 0.15
+Start-Sleep 0.2
 [console]::beep(2000, 80)
 $wshell = New-Object -ComObject Wscript.Shell
 $Output = $wshell.Popup("The first task has finished, more to come. -Red Team")
